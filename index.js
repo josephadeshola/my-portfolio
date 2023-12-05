@@ -1,3 +1,4 @@
+
 document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[service^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
@@ -20,7 +21,7 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       light.style.display="none"
       document.getElementById("paragraphColor").style.color="#1e1e1e"
       document.getElementById("paragrapTag").style.color="#1e1e1e"
-      document.getElementById("changeColor").style.backgroundColor="white"
+      document.getElementById("about").style.backgroundColor="white"
       document.getElementById("aboutColor").style.backgroundColor="white"
       document.getElementById("services").style.backgroundColor="#fff"
       document.getElementById("tag-4").style.color="#1e1e1e"
@@ -47,9 +48,9 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       document.getElementById("num3").style.color="#1e1e1e"
       document.getElementById("num4").style.color="#1e1e1e"
       document.getElementById("num5").style.color="#1e1e1e"
-      document.getElementById(" h-four").style.color="#1e1e1e"
-      document.getElementById(" h-six").style.color="#1e1e1e"
-      document.getElementById("icon1").style.color="#1e1e1e"
+      document.getElementById("hfour").style.color="#1e1e1e"
+      document.getElementById("ico-circle").style.color="#1e1e1e"
+
     
     }
     const light_Mode=()=>{
@@ -57,8 +58,8 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       lig.style.display="none"
       document.getElementById("paragraphColor").style.color="#1e1e1e"
       document.getElementById("paragrapTag").style.color="#1e1e1e"
-      document.getElementById("changeColor").style.backgroundColor="white"
-      document.getElementById("aboutColor").style.backgroundColor="white"
+      document.getElementById("about").style.backgroundColor="white"
+      document.getElementById("aboutColor").style.backgroundColor="#fff"
       document.getElementById("services").style.backgroundColor="#fff"
       document.getElementById("tag-4").style.color="#1e1e1e"
       document.getElementById("skill-tag").style.color="#1e1e1e"
@@ -84,12 +85,12 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       document.getElementById("num3").style.color="#1e1e1e"
       document.getElementById("num4").style.color="#1e1e1e"
       document.getElementById("num5").style.color="#1e1e1e"
-      document.getElementById(" h-four").style.color="#1e1e1e"
-      document.getElementById(" h-six").style.color="#1e1e1e"
-      document.getElementById("icon1").style.color="#1e1e1e"
+      document.getElementById(" hfour").style.color="#1e1e1e"
+      
+
     
     }
-    document.getElementById("changeColor").style.backgroundColor="rgb(39, 39, 39)"
+    document.getElementById("about").style.backgroundColor="rgb(39, 39, 39)"
     document.getElementById("aboutColor").style.backgroundColor="#1e1e1e"
     document.getElementById("services").style.backgroundColor="#1e1e1e"
     document.getElementById("paragrapTag").style.color="#fff"
@@ -119,9 +120,6 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
     document.getElementById("num5").style.color="#fff"
     document.getElementById("paragraphColor").style.color="#fff"
     document.getElementById("contact-tag").style.color="#fff"
-    document.getElementById(" h-four").style.color="#fff"
-    document.getElementById(" h-six").style.color="#fff"
-    document.getElementById("icon1").style.color="#fff"
   
 
     const dark_mode=()=>{
@@ -129,7 +127,7 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       light.style.display="block"
       document.getElementById("paragraphColor").style.color="#fff"
       document.getElementById("paragrapTag").style.color="#fff"
-      document.getElementById("changeColor").style.backgroundColor="#1e1e1e"
+      document.getElementById("about").style.backgroundColor="#1e1e1e"
       document.getElementById("aboutColor").style.backgroundColor="#1e1e1e"
       document.getElementById("services").style.backgroundColor="#1e1e1e"
       document.getElementById("tag-4").style.color="#fff"
@@ -156,9 +154,6 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       document.getElementById("num3").style.color="#fff"
       document.getElementById("num4").style.color="#fff"
       document.getElementById("num5").style.color="#fff"
-      document.getElementById("h-six").style.color="#fff"
-      document.getElementById("icon1").style.color="#fff"
-
 
 
     }
@@ -167,7 +162,7 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       lig.style.display="block"
       document.getElementById("paragraphColor").style.color="#fff"
       document.getElementById("paragrapTag").style.color="#fff"
-      document.getElementById("changeColor").style.backgroundColor="#1e1e1e"
+      document.getElementById("about").style.backgroundColor="#1e1e1e"
       document.getElementById("aboutColor").style.backgroundColor="#1e1e1e"
       document.getElementById("services").style.backgroundColor="#1e1e1e"
       document.getElementById("tag-4").style.color="#fff"
@@ -194,11 +189,8 @@ document.querySelectorAll('a[home^="#"]','a[contact^="#"]','a[about^="#"]','a[se
       document.getElementById("num3").style.color="#fff"
       document.getElementById("num4").style.color="#fff"
       document.getElementById("num5").style.color="#fff"
-      document.getElementById("h-six").style.color="#fff"
+      document.getElementById("hsix").style.color="#fff"
       document.getElementById("icon1").style.color="#fff"
-
-
-
     }
  
 
